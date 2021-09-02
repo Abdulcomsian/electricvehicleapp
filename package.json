@@ -19,6 +19,7 @@
     "@react-native-community/datetimepicker": "^3.5.2",
     "@react-native-community/masked-view": "^0.1.11",
     "@react-navigation/bottom-tabs": "^6.0.5",
+    "@react-navigation/elements": "^1.1.0",
     "@react-navigation/native": "^6.0.2",
     "@react-navigation/stack": "^6.0.7",
     "axios": "^0.21.1",
@@ -38,11 +39,13 @@
     "react-native-safe-area-context": "^3.3.2",
     "react-native-screens": "^3.6.0",
     "react-native-splash-screen": "^3.2.0",
+    "react-native-svg": "^12.1.1",
     "react-native-swipeable-list": "^0.1.0",
     "react-redux": "^7.2.4",
     "redux": "^4.1.1",
     "redux-persist": "^6.0.0",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "rn-tourguide": "^2.7.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
@@ -53,6 +56,7 @@
     "@types/react-redux": "^7.1.18",
     "@types/react-test-renderer": "^16.9.2",
     "babel-jest": "^26.6.3",
+    "babel-plugin-module-resolver": "^4.1.0",
     "eslint": "^7.14.0",
     "jest": "^26.6.3",
     "metro-react-native-babel-preset": "^0.66.0",
