@@ -12,7 +12,7 @@ module.exports = {
           '@redux': ['./src/redux'],
           '@constants': ['./src/constants'],
           '@screens': ['./src/screens'],
-          '@utils': ['./src/utils'],
+          '@lib': ['./src/lib'],
           '@hooks': ['./src/hooks'],
         },
       },

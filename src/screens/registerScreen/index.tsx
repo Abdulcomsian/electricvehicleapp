@@ -3,38 +3,38 @@ import {View, StyleSheet, Image, Text, Platform} from 'react-native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {widthPercentageToDP as wp} from 'react-native-responsive-screen';
 import {Colors, Images, TextFamily} from '@constants';
-import {Buttons} from '@components';
+import {Buttons, Inputs} from '@components';
 
-const LandingScreen = ({navigation}: {navigation: any}) => {
+const RegisterScreen = () => {
   const {top, bottom} = useSafeAreaInsets();
   return (
     <View style={[styles.screenContain, {paddingBottom: bottom}]}>
-      <Image
-        style={styles.bgLogoBanner}
-        source={Images.backgroundLogo}
-        resizeMode={'contain'}
-      />
-      <Image
-        style={[styles.Logo, {top: top + 20}]}
-        source={Images.mainLogo}
-        resizeMode={'contain'}
-      />
       <View style={styles.screenContainInner}>
-        <View style={styles.textCont}>
-          <Text style={styles.textA}>
-            Your EV Charging <Text style={styles.textB}>Companion</Text>
-          </Text>
-        </View>
-        <Buttons.RoundedBtn
-          onPress={() => {
-            navigation.navigate('register');
-          }}>
+        <Inputs.MaterialInputA
+          placeholder={'Full Name'}
+          style={styles.textInput}
+        />
+        <Inputs.MaterialInputA
+          placeholder={'Email Address'}
+          style={styles.textInput}
+        />
+        <Inputs.MaterialInputA
+          placeholder={'Create Password'}
+          style={styles.textInput}
+        />
+        <Inputs.MaterialInputA
+          placeholder={'Re-enter Password'}
+          style={styles.textInput}
+        />
+        <Text style={styles.loginText}>
+          By signing up, you agree to the
+          <Text style={styles.loginTextGreen}> Terms and Conditions </Text>
+          guiding epowerfamily.
+        </Text>
+        <Buttons.RoundedBtn onPress={() => {}}>
           Create Account
         </Buttons.RoundedBtn>
       </View>
-      <Text style={styles.loginText}>
-        Have an account? <Text style={styles.loginTextGreen}>Log In</Text>
-      </Text>
     </View>
   );
 };
@@ -45,7 +45,8 @@ const styles = StyleSheet.create({
     backgroundColor: Colors.white,
     paddingHorizontal: 25,
   },
-  screenContainInner: {flex: 1, justifyContent: 'center'},
+  textInput: {marginVertical: 16, height: 48},
+  screenContainInner: {flex: 1, paddingBottom: 80},
   bgLogoBanner: {
     position: 'absolute',
     width: wp(120),
@@ -67,12 +68,12 @@ const styles = StyleSheet.create({
   textB: {color: Colors.green},
   Logo: {height: 70, width: 70, alignSelf: 'center', position: 'absolute'},
   loginText: {
-    fontSize: Platform.OS === 'ios' ? 17 : 18,
+    fontSize: Platform.OS === 'ios' ? 12 : 13,
     fontFamily: TextFamily.HELVETICA,
-    textAlign: 'center',
-    marginBottom: 15,
+    marginBottom: 46,
+    lineHeight: 18,
   },
   loginTextGreen: {color: Colors.green},
 });
 
-export default LandingScreen;
+export default RegisterScreen;

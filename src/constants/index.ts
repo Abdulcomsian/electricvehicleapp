@@ -1,3 +1,4 @@
 import Colors from './Colors';
 import TextFamily from './textFamily';
-export {Colors, TextFamily};
+import Images from './images';
+export {Colors, TextFamily, Images};
