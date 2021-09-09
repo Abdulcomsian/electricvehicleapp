@@ -10,6 +10,7 @@ import RegisterScreen from '@screens/registerScreen';
 import LoginScreen from '@screens/loginScreen';
 import EmailVerificationScreen from '@screens/emailVerify';
 import MoreRegDetScreen from '@screens/moreRegistrationDetail';
+import NotificationScreen from '@screens/notifications';
 import TabScreens from './tabNavigation';
 
 enableScreens(true);
@@ -18,10 +19,9 @@ const {Screen, Navigator} = createStackNavigator();
 const Stack = () => {
   return (
     <Navigator
+      //initialRouteName="tabs"
       screenOptions={{
         headerMode: 'screen',
-        // headerTintColor: 'white',
-        // headerStyle: {backgroundColor: 'tomato'},
       }}>
       <Screen
         name="landing"
@@ -83,6 +83,22 @@ const Stack = () => {
         component={TabScreens}
         name="tabs"
         options={{headerShown: false}}
+      />
+      <Screen
+        component={NotificationScreen}
+        name="notifications"
+        options={{
+          // presentation: 'modal',
+          headerTitleAlign: 'center',
+          headerTitle: () => (
+            <Text style={styles.headerText}>NOTIFICATIONS</Text>
+          ),
+          headerBackTitleVisible: false,
+          headerBackImage: () => (
+            <Image style={styles.backImage} source={Images.greenBack} />
+          ),
+          headerStyle: styles.headerStyle,
+        }}
       />
     </Navigator>
   );

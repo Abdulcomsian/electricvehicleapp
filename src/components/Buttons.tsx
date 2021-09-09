@@ -6,15 +6,18 @@ import {
   Platform,
   Text,
   TextStyle,
+  Image,
 } from 'react-native';
 import {Colors, TextFamily} from '@constants';
 const RoundedBtn = ({
+  icon = undefined,
   children,
   onPress,
   disabled = false,
   style = {},
   textStyle = {},
 }: {
+  icon?: any;
   children: string;
   onPress: Function;
   disabled?: boolean;
@@ -28,11 +31,13 @@ const RoundedBtn = ({
       activeOpacity={0.85}
       onPress={() => onPress()}>
       <Text style={[styles.btnText, textStyle]}>{children}</Text>
+      {icon !== undefined && <Image source={icon} style={styles.iconStyle} />}
     </TouchableOpacity>
   );
 };
 
 const styles = StyleSheet.create({
+  iconStyle: {width: 18, height: 18, marginLeft: 12},
   btn: {
     marginTop: 2,
     backgroundColor: Colors.green,
@@ -40,6 +45,8 @@ const styles = StyleSheet.create({
     borderRadius: 12,
     width: '100%',
     justifyContent: 'center',
+    alignItems: 'center',
+    flexDirection: 'row',
   },
   btnText: {
     fontFamily: TextFamily.HELVETICA_BLACK,

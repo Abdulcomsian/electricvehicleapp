@@ -102,10 +102,12 @@ const SpecialBtnView = ({
   icon,
   title,
   onPress = () => {},
+  checked = false,
 }: {
   icon: any;
   title: string;
   onPress?: Function;
+  checked?: Boolean;
 }) => {
   return (
     <TouchableOpacity
@@ -115,6 +117,7 @@ const SpecialBtnView = ({
       <View style={styles.specialBtnViewDecView}>
         <Image source={icon} style={styles.icon} />
         <Text style={styles.specialBtnViewTitle}>{title}</Text>
+        {checked && <Image source={Images.tickGreen} style={styles.tickIcon} />}
       </View>
       <View style={styles.specialBtnViewAddView}>
         <Text style={styles.specialBtnViewAddText}>Add+</Text>
@@ -350,6 +353,7 @@ const styles = StyleSheet.create({
     marginBottom: 35,
     height: 56,
   },
+  tickIcon: {width: 25, height: 25, resizeMode: 'contain', marginLeft: 10},
   icon: {width: 18, height: 18, resizeMode: 'contain', marginRight: 5},
   container: {flex: 1, backgroundColor: Colors.white, padding: 20},
   backImage: {

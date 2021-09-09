@@ -5,7 +5,9 @@ const Images = {
   aeye: require('../assets/icons/ActiveEye.png'),
   eye: require('../assets/icons/InactiveEye.png'),
   location: require('../assets/icons/locationDarkPurple.png'),
+  locationGrey: require('../assets/icons/locationGrey.png'),
   car: require('../assets/icons/carDPurple.png'),
+  carGrey: require('../assets/icons/carGrey.png'),
   ddArrow: require('../assets/icons/dropDown.png'),
   notification: require('../assets/icons/Notification1.png'),
   chat: require('../assets/icons/chat.png'),
@@ -16,10 +18,12 @@ const Images = {
   starHalf: require('../assets/icons/starHalf.png'),
   starEmpty: require('../assets/icons/starEmpty.png'),
   starRounded: require('../assets/icons/StarRounded.png'),
-
+  tickGreen: require('../assets/icons/check_green.png'),
+  tickWhite: require('../assets/icons/check_white.png'),
+  thunder: require('../assets/icons/charge.png'),
   activeHome: require('../assets/icons/homeActive.png'),
   inactiveHome: require('../assets/icons/homeInactive.png'),
-
+  directionWhite: require('../assets/icons/directionWhite.png'),
   activeSearch: require('../assets/icons/searchActive.png'),
   inactiveSearch: require('../assets/icons/searchInactive.png'),
 

@@ -4,6 +4,7 @@ import {
   Image,
   Platform,
   Text,
+  View,
   TouchableOpacity,
 } from 'react-native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
@@ -12,6 +13,7 @@ import HomeScreen from '@screens/homeScreen';
 import {TextFamily, Colors, Images} from '@constants';
 import {Switches} from '@components';
 import getShadow from '@lib/shadow';
+import {useNavigation} from '@react-navigation/native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 const {Screen, Navigator} = createBottomTabNavigator();
 
@@ -21,6 +23,7 @@ const BottomTabs = () => {
   const handleSwitch = () => {
     ddd(d => !d);
   };
+  const navigation = useNavigation();
   return (
     <Navigator screenOptions={{tabBarShowLabel: false}}>
       <Screen
@@ -44,7 +47,11 @@ const BottomTabs = () => {
           headerRightContainerStyle: styles.headerRightContainer,
           headerRight: () => (
             <Fragment>
-              <TouchableOpacity style={styles.btn1} activeOpacity={0.85}>
+              <TouchableOpacity
+                style={styles.btn1}
+                activeOpacity={0.85}
+                onPress={() => navigation.navigate('notifications')}>
+                <View style={styles.dot} />
                 <Image source={Images.notification} style={styles.headerIcon} />
               </TouchableOpacity>
               <TouchableOpacity style={styles.btn1} activeOpacity={0.85}>
@@ -132,6 +139,16 @@ const BottomTabs = () => {
   );
 };
 const styles = StyleSheet.create({
+  dot: {
+    width: 8,
+    height: 8,
+    borderRadius: 4,
+    backgroundColor: Colors.ORed,
+    position: 'absolute',
+    top: 2,
+    left: 1,
+    zIndex: 4,
+  },
   themeText: {
     color: Colors.darkPurple,
     fontSize: Platform.OS === 'android' ? 13 : 12,
