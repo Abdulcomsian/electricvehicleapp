@@ -1,19 +1,33 @@
 import React from 'react';
-import {Text, TouchableOpacity, StyleSheet, Platform} from 'react-native';
+import {
+  TouchableOpacity,
+  StyleSheet,
+  ViewStyle,
+  Platform,
+  Text,
+  TextStyle,
+} from 'react-native';
 import {Colors, TextFamily} from '@constants';
 const RoundedBtn = ({
   children,
   onPress,
+  disabled = false,
+  style = {},
+  textStyle = {},
 }: {
   children: string;
   onPress: Function;
+  disabled?: boolean;
+  style?: ViewStyle;
+  textStyle?: TextStyle;
 }) => {
   return (
     <TouchableOpacity
-      style={styles.btn}
+      style={[styles.btn, style]}
+      disabled={disabled}
       activeOpacity={0.85}
       onPress={() => onPress()}>
-      <Text style={styles.btnText}>{children}</Text>
+      <Text style={[styles.btnText, textStyle]}>{children}</Text>
     </TouchableOpacity>
   );
 };

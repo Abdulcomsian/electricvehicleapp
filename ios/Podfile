@@ -3,7 +3,7 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '11.0'
 
-target 'epower' do
+target 'EPower' do
   config = use_native_modules!
 
   use_react_native!(
@@ -17,7 +17,7 @@ target 'epower' do
   pod 'Permission-LocationAccuracy', :path => "#{permissions_path}/LocationAccuracy"
   pod 'Permission-LocationAlways', :path => "#{permissions_path}/LocationAlways"
   pod 'Permission-LocationWhenInUse', :path => "#{permissions_path}/LocationWhenInUse"
-  target 'epowerTests' do
+  target 'EPowerTests' do
     inherit! :complete
     # Pods for testing
   end

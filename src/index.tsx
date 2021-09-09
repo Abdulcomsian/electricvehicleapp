@@ -1,9 +1,12 @@
 import React from 'react';
-import {SafeAreaProvider} from 'react-native-safe-area-context';
+import {
+  SafeAreaProvider,
+  initialWindowMetrics,
+} from 'react-native-safe-area-context';
 import Navigator from './navigator';
 const App = () => {
   return (
-    <SafeAreaProvider>
+    <SafeAreaProvider initialMetrics={initialWindowMetrics}>
       <Navigator />
     </SafeAreaProvider>
   );

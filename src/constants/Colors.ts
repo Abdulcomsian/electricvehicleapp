@@ -5,6 +5,7 @@ export default {
   lightGrey2: '#E4E4E4',
   muted: '#C1C0BF',
   dark: '#2B2B2B',
+  darkTheme: '#373737',
   darkPurple: '#271F30',
   black: '#000000',
   transparentBlack: '#00000088',

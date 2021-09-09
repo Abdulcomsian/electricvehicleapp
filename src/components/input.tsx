@@ -1,31 +1,55 @@
-import React, {useState} from 'react';
+import React, {useState, useRef} from 'react';
 import {InputOutline, InputOutlineProps} from 'react-native-input-outline';
-import {StyleSheet} from 'react-native';
-import {Colors} from '@constants';
+import {StyleSheet, Image, TouchableOpacity} from 'react-native';
+import {Colors, Images} from '@constants';
 const MaterialInputA = ({
   placeholder = '',
   onFocus = () => {},
   onBlur = () => {},
   activeColor = Colors.green,
-  inactiveColor = Colors.lightGrey2,
+  inactiveColor = Colors.muted,
   keyboardType = 'default',
-  placeholderTextColor = Colors.lightGrey2,
+  placeholderTextColor = Colors.muted,
   style = {},
   roundness = 8,
+  secureTextEntry = false,
+  error = undefined,
 }: InputOutlineProps) => {
-  const [active, setActive] = useState<boolean>(false);
-  console.log(active + '');
+  //const [active, setActive] = useState<boolean>(false);
+  const [secure, setSecure] = useState<boolean>(secureTextEntry);
+  const inputRef = useRef<InputOutline>(null);
+  console.log('isActive', inputRef.current?.isFocused);
+
   return (
     <InputOutline
-      style={[styles.input, {borderWidth: active ? 1 : 0}, style]}
+      ref={inputRef}
+      secureTextEntry={secure}
+      trailingIcon={() =>
+        secureTextEntry ? (
+          <TouchableOpacity
+            onPress={() => setSecure(!secure)}
+            activeOpacity={0.85}>
+            <Image
+              source={secure ? Images.eye : Images.aeye}
+              style={styles.icon}
+            />
+          </TouchableOpacity>
+        ) : null
+      }
+      style={[styles.input, style]} //{borderWidth: active ? 1 : 0}
       onFocus={e => {
+        inputRef.current?.focus();
+        console.log(placeholder, 'isActive');
         onFocus(e);
-        setActive(true);
+        //setActive(true);
       }}
       onBlur={e => {
+        inputRef.current?.blur();
+        console.log(placeholder, 'blured');
         onBlur(e);
-        setActive(false);
+        //setActive(false);
       }}
+      error={error}
       placeholder={placeholder}
       activeColor={activeColor}
       inactiveColor={inactiveColor}
@@ -42,5 +66,6 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     backgroundColor: Colors.lightGrey1,
   },
+  icon: {width: 24, height: 24, resizeMode: 'contain'},
 });
 export default {MaterialInputA};

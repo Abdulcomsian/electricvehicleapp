@@ -10,10 +10,10 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "epower";
+    return "EPower";
   }
-  @Override
-protected void onCreate(Bundle savedInstanceState) {
+   @Override
+  protected void onCreate(Bundle savedInstanceState) {
   super.onCreate(null);
 }
 }

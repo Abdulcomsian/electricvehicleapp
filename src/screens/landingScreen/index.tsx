@@ -32,7 +32,11 @@ const LandingScreen = ({navigation}: {navigation: any}) => {
           Create Account
         </Buttons.RoundedBtn>
       </View>
-      <Text style={styles.loginText}>
+      <Text
+        style={styles.loginText}
+        onPress={() => {
+          navigation.replace('login');
+        }}>
         Have an account? <Text style={styles.loginTextGreen}>Log In</Text>
       </Text>
     </View>

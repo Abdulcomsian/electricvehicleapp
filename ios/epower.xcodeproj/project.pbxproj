@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* epowerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* epowerTests.m */; };
+		00E356F31AD99517003FC87E /* EPowerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* EPowerTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		23329AA8816D490BA97FC1E9 /* helvetica-rounded-bold-5871d05ead8de.otf in Resources */ = {isa = PBXBuildFile; fileRef = 667FC017F0BA42B497A5EAB8 /* helvetica-rounded-bold-5871d05ead8de.otf */; };
-		2EF8344E025F4A34B81EEE1D /* Helvetica-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21BDB320C5EF441C9A26A1DA /* Helvetica-Bold.ttf */; };
-		6172F2D35A4C3AA820D92908 /* libPods-epower.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6423831EA8574132BED9D8CC /* libPods-epower.a */; };
-		7EF68E3733C33B6898317E18 /* libPods-epower-epowerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFE59519B596E51CEFDCCC0 /* libPods-epower-epowerTests.a */; };
+		21A86D9A37B24096A25DBAA9 /* Helvetica-BoldOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34B7B01C8D344F0EBFB5C58F /* Helvetica-BoldOblique.ttf */; };
+		32BD5E6FDE284086BEB8B305 /* helvetica-light-587ebe5a59211.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63F3515809CF4BA98BBB47AE /* helvetica-light-587ebe5a59211.ttf */; };
+		5E80D2A5F8C2404E930C9489 /* helvetica-rounded-bold-5871d05ead8de.otf in Resources */ = {isa = PBXBuildFile; fileRef = 26A142988B6C421888A85671 /* helvetica-rounded-bold-5871d05ead8de.otf */; };
+		6172F2D35A4C3AA820D92908 /* libPods-EPower.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6423831EA8574132BED9D8CC /* libPods-EPower.a */; };
+		641C8C6EA9A54CE195E3C5F7 /* Helvetica-Oblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D330F4A2778340E2913C259A /* Helvetica-Oblique.ttf */; };
+		7EF68E3733C33B6898317E18 /* libPods-EPower-EPowerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFE59519B596E51CEFDCCC0 /* libPods-EPower-EPowerTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		B03D40CE32A04D4E93AAE740 /* Helvetica-BoldOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D7FB278AD0F487BBAF7A00E /* Helvetica-BoldOblique.ttf */; };
-		B73047928E074F79B64F2554 /* helvetica-compressed-5871d14b6903a.otf in Resources */ = {isa = PBXBuildFile; fileRef = 93449E6ADD24447EA6A5B8C1 /* helvetica-compressed-5871d14b6903a.otf */; };
-		B7A3DE3E9A6C45ED911D9445 /* Helvetica-Oblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D73B2CB4C5054FDBA940F85F /* Helvetica-Oblique.ttf */; };
-		DDA809AEC5AD4C8C83900F08 /* helvetica-light-587ebe5a59211.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A7FE9B0F433455394609B01 /* helvetica-light-587ebe5a59211.ttf */; };
-		E53F535626E0FD4800DB5E12 /* swifter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53F535526E0FD4800DB5E12 /* swifter.swift */; };
-		F359254D73E44DD89DCDCC60 /* Helvetica.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2BA55A379C244CE2A58EBC87 /* Helvetica.ttf */; };
+		BA8F5917E7044AF6B8980E73 /* Helvetica-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D4FE1BA1E2A64FD4B1F98077 /* Helvetica-Bold.ttf */; };
+		BAE616522BA142DCA8904013 /* Helvetica.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF945CB57278463A9CB78760 /* Helvetica.ttf */; };
+		E0C999729AE9455D9E003E1B /* helvetica-compressed-5871d14b6903a.otf in Resources */ = {isa = PBXBuildFile; fileRef = 11A45C05F5CC47E982CD29FD /* helvetica-compressed-5871d14b6903a.otf */; };
+		E555BF1826E72F6700C1543D /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = E555BF1726E72F6700C1543D /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,37 +30,37 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = epower;
+			remoteInfo = EPower;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* epowerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = epowerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* EPowerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EPowerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* epowerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = epowerTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* epower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = epower.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = epower/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = epower/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = epower/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = epower/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = epower/main.m; sourceTree = "<group>"; };
-		1D0AE47A65C8663E3B452821 /* Pods-epower-epowerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-epower-epowerTests.release.xcconfig"; path = "Target Support Files/Pods-epower-epowerTests/Pods-epower-epowerTests.release.xcconfig"; sourceTree = "<group>"; };
-		21BDB320C5EF441C9A26A1DA /* Helvetica-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Helvetica-Bold.ttf"; path = "../src/assets/fonts/Helvetica-Bold.ttf"; sourceTree = "<group>"; };
-		2BA55A379C244CE2A58EBC87 /* Helvetica.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Helvetica.ttf; path = ../src/assets/fonts/Helvetica.ttf; sourceTree = "<group>"; };
-		6423831EA8574132BED9D8CC /* libPods-epower.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-epower.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		667FC017F0BA42B497A5EAB8 /* helvetica-rounded-bold-5871d05ead8de.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "helvetica-rounded-bold-5871d05ead8de.otf"; path = "../src/assets/fonts/helvetica-rounded-bold-5871d05ead8de.otf"; sourceTree = "<group>"; };
-		6C97AB639B58BBB4B15BBE30 /* Pods-epower-epowerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-epower-epowerTests.debug.xcconfig"; path = "Target Support Files/Pods-epower-epowerTests/Pods-epower-epowerTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7A7FE9B0F433455394609B01 /* helvetica-light-587ebe5a59211.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "helvetica-light-587ebe5a59211.ttf"; path = "../src/assets/fonts/helvetica-light-587ebe5a59211.ttf"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = epower/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		93449E6ADD24447EA6A5B8C1 /* helvetica-compressed-5871d14b6903a.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "helvetica-compressed-5871d14b6903a.otf"; path = "../src/assets/fonts/helvetica-compressed-5871d14b6903a.otf"; sourceTree = "<group>"; };
-		9D7FB278AD0F487BBAF7A00E /* Helvetica-BoldOblique.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Helvetica-BoldOblique.ttf"; path = "../src/assets/fonts/Helvetica-BoldOblique.ttf"; sourceTree = "<group>"; };
-		ABFE59519B596E51CEFDCCC0 /* libPods-epower-epowerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-epower-epowerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0A881CF5CF3F2B244570E2A /* Pods-epower.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-epower.debug.xcconfig"; path = "Target Support Files/Pods-epower/Pods-epower.debug.xcconfig"; sourceTree = "<group>"; };
-		D00AAFFCFCFDA5787532823F /* Pods-epower.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-epower.release.xcconfig"; path = "Target Support Files/Pods-epower/Pods-epower.release.xcconfig"; sourceTree = "<group>"; };
-		D73B2CB4C5054FDBA940F85F /* Helvetica-Oblique.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Helvetica-Oblique.ttf"; path = "../src/assets/fonts/Helvetica-Oblique.ttf"; sourceTree = "<group>"; };
-		E53F535426E0FD4800DB5E12 /* epower-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "epower-Bridging-Header.h"; sourceTree = "<group>"; };
-		E53F535526E0FD4800DB5E12 /* swifter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swifter.swift; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* EPowerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPowerTests.m; sourceTree = "<group>"; };
+		11A45C05F5CC47E982CD29FD /* helvetica-compressed-5871d14b6903a.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "helvetica-compressed-5871d14b6903a.otf"; path = "../src/assets/fonts/helvetica-compressed-5871d14b6903a.otf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* EPower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EPower.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = EPower/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = EPower/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = EPower/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = EPower/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = EPower/main.m; sourceTree = "<group>"; };
+		1D0AE47A65C8663E3B452821 /* Pods-EPower-EPowerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EPower-EPowerTests.release.xcconfig"; path = "Target Support Files/Pods-EPower-EPowerTests/Pods-EPower-EPowerTests.release.xcconfig"; sourceTree = "<group>"; };
+		26A142988B6C421888A85671 /* helvetica-rounded-bold-5871d05ead8de.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "helvetica-rounded-bold-5871d05ead8de.otf"; path = "../src/assets/fonts/helvetica-rounded-bold-5871d05ead8de.otf"; sourceTree = "<group>"; };
+		34B7B01C8D344F0EBFB5C58F /* Helvetica-BoldOblique.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Helvetica-BoldOblique.ttf"; path = "../src/assets/fonts/Helvetica-BoldOblique.ttf"; sourceTree = "<group>"; };
+		63F3515809CF4BA98BBB47AE /* helvetica-light-587ebe5a59211.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "helvetica-light-587ebe5a59211.ttf"; path = "../src/assets/fonts/helvetica-light-587ebe5a59211.ttf"; sourceTree = "<group>"; };
+		6423831EA8574132BED9D8CC /* libPods-EPower.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EPower.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C97AB639B58BBB4B15BBE30 /* Pods-EPower-EPowerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EPower-EPowerTests.debug.xcconfig"; path = "Target Support Files/Pods-EPower-EPowerTests/Pods-EPower-EPowerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = EPower/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABFE59519B596E51CEFDCCC0 /* libPods-EPower-EPowerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EPower-EPowerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0A881CF5CF3F2B244570E2A /* Pods-EPower.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EPower.debug.xcconfig"; path = "Target Support Files/Pods-EPower/Pods-EPower.debug.xcconfig"; sourceTree = "<group>"; };
+		D00AAFFCFCFDA5787532823F /* Pods-EPower.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EPower.release.xcconfig"; path = "Target Support Files/Pods-EPower/Pods-EPower.release.xcconfig"; sourceTree = "<group>"; };
+		D330F4A2778340E2913C259A /* Helvetica-Oblique.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Helvetica-Oblique.ttf"; path = "../src/assets/fonts/Helvetica-Oblique.ttf"; sourceTree = "<group>"; };
+		D4FE1BA1E2A64FD4B1F98077 /* Helvetica-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Helvetica-Bold.ttf"; path = "../src/assets/fonts/Helvetica-Bold.ttf"; sourceTree = "<group>"; };
+		E555BF1626E72F6700C1543D /* EPower-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EPower-Bridging-Header.h"; sourceTree = "<group>"; };
+		E555BF1726E72F6700C1543D /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EF945CB57278463A9CB78760 /* Helvetica.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Helvetica.ttf; path = ../src/assets/fonts/Helvetica.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EF68E3733C33B6898317E18 /* libPods-epower-epowerTests.a in Frameworks */,
+				7EF68E3733C33B6898317E18 /* libPods-EPower-EPowerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,20 +76,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6172F2D35A4C3AA820D92908 /* libPods-epower.a in Frameworks */,
+				6172F2D35A4C3AA820D92908 /* libPods-EPower.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* epowerTests */ = {
+		00E356EF1AD99517003FC87E /* EPowerTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* epowerTests.m */,
+				00E356F21AD99517003FC87E /* EPowerTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = epowerTests;
+			path = EPowerTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -100,7 +100,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* epower */ = {
+		13B07FAE1A68108700A75B9A /* EPower */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -110,15 +110,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = epower;
+			name = EPower;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				6423831EA8574132BED9D8CC /* libPods-epower.a */,
-				ABFE59519B596E51CEFDCCC0 /* libPods-epower-epowerTests.a */,
+				6423831EA8574132BED9D8CC /* libPods-EPower.a */,
+				ABFE59519B596E51CEFDCCC0 /* libPods-EPower-EPowerTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -133,15 +133,15 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				E53F535526E0FD4800DB5E12 /* swifter.swift */,
-				13B07FAE1A68108700A75B9A /* epower */,
+				E555BF1726E72F6700C1543D /* File.swift */,
+				13B07FAE1A68108700A75B9A /* EPower */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* epowerTests */,
+				00E356EF1AD99517003FC87E /* EPowerTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				E233CBF5F47BEE60B243DCF8 /* Pods */,
-				8836F56F092949629509F5BD /* Resources */,
-				E53F535426E0FD4800DB5E12 /* epower-Bridging-Header.h */,
+				E555BF1626E72F6700C1543D /* EPower-Bridging-Header.h */,
+				AB3890F80A0B4BD0912809D5 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -151,22 +151,22 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* epower.app */,
-				00E356EE1AD99517003FC87E /* epowerTests.xctest */,
+				13B07F961A680F5B00A75B9A /* EPower.app */,
+				00E356EE1AD99517003FC87E /* EPowerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8836F56F092949629509F5BD /* Resources */ = {
+		AB3890F80A0B4BD0912809D5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				21BDB320C5EF441C9A26A1DA /* Helvetica-Bold.ttf */,
-				9D7FB278AD0F487BBAF7A00E /* Helvetica-BoldOblique.ttf */,
-				93449E6ADD24447EA6A5B8C1 /* helvetica-compressed-5871d14b6903a.otf */,
-				7A7FE9B0F433455394609B01 /* helvetica-light-587ebe5a59211.ttf */,
-				D73B2CB4C5054FDBA940F85F /* Helvetica-Oblique.ttf */,
-				667FC017F0BA42B497A5EAB8 /* helvetica-rounded-bold-5871d05ead8de.otf */,
-				2BA55A379C244CE2A58EBC87 /* Helvetica.ttf */,
+				D4FE1BA1E2A64FD4B1F98077 /* Helvetica-Bold.ttf */,
+				34B7B01C8D344F0EBFB5C58F /* Helvetica-BoldOblique.ttf */,
+				11A45C05F5CC47E982CD29FD /* helvetica-compressed-5871d14b6903a.otf */,
+				63F3515809CF4BA98BBB47AE /* helvetica-light-587ebe5a59211.ttf */,
+				D330F4A2778340E2913C259A /* Helvetica-Oblique.ttf */,
+				26A142988B6C421888A85671 /* helvetica-rounded-bold-5871d05ead8de.otf */,
+				EF945CB57278463A9CB78760 /* Helvetica.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -174,10 +174,10 @@
 		E233CBF5F47BEE60B243DCF8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C0A881CF5CF3F2B244570E2A /* Pods-epower.debug.xcconfig */,
-				D00AAFFCFCFDA5787532823F /* Pods-epower.release.xcconfig */,
-				6C97AB639B58BBB4B15BBE30 /* Pods-epower-epowerTests.debug.xcconfig */,
-				1D0AE47A65C8663E3B452821 /* Pods-epower-epowerTests.release.xcconfig */,
+				C0A881CF5CF3F2B244570E2A /* Pods-EPower.debug.xcconfig */,
+				D00AAFFCFCFDA5787532823F /* Pods-EPower.release.xcconfig */,
+				6C97AB639B58BBB4B15BBE30 /* Pods-EPower-EPowerTests.debug.xcconfig */,
+				1D0AE47A65C8663E3B452821 /* Pods-EPower-EPowerTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -185,30 +185,30 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* epowerTests */ = {
+		00E356ED1AD99517003FC87E /* EPowerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "epowerTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "EPowerTests" */;
 			buildPhases = (
 				A130D646172E58E1D159D8F2 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
+				077E01280D4B4AD18B2E1770 /* [CP] Embed Pods Frameworks */,
 				4E62BDF20514810D028A5FBF /* [CP] Copy Pods Resources */,
-				1B591426B4A7C63BC3AEB51B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = epowerTests;
-			productName = epowerTests;
-			productReference = 00E356EE1AD99517003FC87E /* epowerTests.xctest */;
+			name = EPowerTests;
+			productName = EPowerTests;
+			productReference = 00E356EE1AD99517003FC87E /* EPowerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* epower */ = {
+		13B07F861A680F5B00A75B9A /* EPower */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "epower" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "EPower" */;
 			buildPhases = (
 				3E482C27206C4DEF2FE45063 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -216,16 +216,16 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				C8AC78B0264D0F9F6F6D630E /* [CP] Embed Pods Frameworks */,
 				ADC9DDC32298B72B3CF5DC8E /* [CP] Copy Pods Resources */,
-				0921C955F97D2FF97977EDC9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = epower;
-			productName = epower;
-			productReference = 13B07F961A680F5B00A75B9A /* epower.app */;
+			name = EPower;
+			productName = EPower;
+			productReference = 13B07F961A680F5B00A75B9A /* EPower.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -245,7 +245,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "epower" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "EPower" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -258,8 +258,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* epower */,
-				00E356ED1AD99517003FC87E /* epowerTests */,
+				13B07F861A680F5B00A75B9A /* EPower */,
+				00E356ED1AD99517003FC87E /* EPowerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -278,13 +278,13 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				2EF8344E025F4A34B81EEE1D /* Helvetica-Bold.ttf in Resources */,
-				B03D40CE32A04D4E93AAE740 /* Helvetica-BoldOblique.ttf in Resources */,
-				B73047928E074F79B64F2554 /* helvetica-compressed-5871d14b6903a.otf in Resources */,
-				DDA809AEC5AD4C8C83900F08 /* helvetica-light-587ebe5a59211.ttf in Resources */,
-				B7A3DE3E9A6C45ED911D9445 /* Helvetica-Oblique.ttf in Resources */,
-				23329AA8816D490BA97FC1E9 /* helvetica-rounded-bold-5871d05ead8de.otf in Resources */,
-				F359254D73E44DD89DCDCC60 /* Helvetica.ttf in Resources */,
+				BA8F5917E7044AF6B8980E73 /* Helvetica-Bold.ttf in Resources */,
+				21A86D9A37B24096A25DBAA9 /* Helvetica-BoldOblique.ttf in Resources */,
+				E0C999729AE9455D9E003E1B /* helvetica-compressed-5871d14b6903a.otf in Resources */,
+				32BD5E6FDE284086BEB8B305 /* helvetica-light-587ebe5a59211.ttf in Resources */,
+				641C8C6EA9A54CE195E3C5F7 /* Helvetica-Oblique.ttf in Resources */,
+				5E80D2A5F8C2404E930C9489 /* helvetica-rounded-bold-5871d05ead8de.otf in Resources */,
+				BAE616522BA142DCA8904013 /* Helvetica.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,38 +305,21 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		0921C955F97D2FF97977EDC9 /* [CP] Embed Pods Frameworks */ = {
+		077E01280D4B4AD18B2E1770 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-epower/Pods-epower-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-EPower-EPowerTests/Pods-EPower-EPowerTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-epower/Pods-epower-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-EPower-EPowerTests/Pods-EPower-EPowerTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-epower/Pods-epower-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1B591426B4A7C63BC3AEB51B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-epower-epowerTests/Pods-epower-epowerTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-epower-epowerTests/Pods-epower-epowerTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-epower-epowerTests/Pods-epower-epowerTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EPower-EPowerTests/Pods-EPower-EPowerTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3E482C27206C4DEF2FE45063 /* [CP] Check Pods Manifest.lock */ = {
@@ -354,7 +337,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-epower-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-EPower-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -367,15 +350,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-epower-epowerTests/Pods-epower-epowerTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-EPower-EPowerTests/Pods-EPower-EPowerTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-epower-epowerTests/Pods-epower-epowerTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-EPower-EPowerTests/Pods-EPower-EPowerTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-epower-epowerTests/Pods-epower-epowerTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EPower-EPowerTests/Pods-EPower-EPowerTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A130D646172E58E1D159D8F2 /* [CP] Check Pods Manifest.lock */ = {
@@ -393,7 +376,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-epower-epowerTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-EPower-EPowerTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -406,15 +389,32 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-epower/Pods-epower-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-EPower/Pods-EPower-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-epower/Pods-epower-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-EPower/Pods-EPower-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-epower/Pods-epower-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EPower/Pods-EPower-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8AC78B0264D0F9F6F6D630E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EPower/Pods-EPower-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EPower/Pods-EPower-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EPower/Pods-EPower-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -443,7 +443,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* epowerTests.m in Sources */,
+				00E356F31AD99517003FC87E /* EPowerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,8 +452,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				E555BF1826E72F6700C1543D /* File.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
-				E53F535626E0FD4800DB5E12 /* swifter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,7 +462,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* epower */;
+			target = 13B07F861A680F5B00A75B9A /* EPower */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -470,7 +470,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C97AB639B58BBB4B15BBE30 /* Pods-epower-epowerTests.debug.xcconfig */;
+			baseConfigurationReference = 6C97AB639B58BBB4B15BBE30 /* Pods-EPower-EPowerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -478,7 +478,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = epowerTests/Info.plist;
+				INFOPLIST_FILE = EPowerTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -492,18 +492,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/epower.app/epower";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EPower.app/EPower";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D0AE47A65C8663E3B452821 /* Pods-epower-epowerTests.release.xcconfig */;
+			baseConfigurationReference = 1D0AE47A65C8663E3B452821 /* Pods-EPower-EPowerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = epowerTests/Info.plist;
+				INFOPLIST_FILE = EPowerTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -517,19 +517,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/epower.app/epower";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EPower.app/EPower";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0A881CF5CF3F2B244570E2A /* Pods-epower.debug.xcconfig */;
+			baseConfigurationReference = C0A881CF5CF3F2B244570E2A /* Pods-EPower.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = epower/Info.plist;
+				INFOPLIST_FILE = EPower/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -539,9 +539,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.accrual.epower;
-				PRODUCT_NAME = epower;
-				SWIFT_OBJC_BRIDGING_HEADER = "epower-Bridging-Header.h";
+				PRODUCT_BUNDLE_IDENTIFIER = com.accural.epower;
+				PRODUCT_NAME = EPower;
+				SWIFT_OBJC_BRIDGING_HEADER = "EPower-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -550,12 +550,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D00AAFFCFCFDA5787532823F /* Pods-epower.release.xcconfig */;
+			baseConfigurationReference = D00AAFFCFCFDA5787532823F /* Pods-EPower.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = epower/Info.plist;
+				INFOPLIST_FILE = EPower/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -565,9 +565,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.accrual.epower;
-				PRODUCT_NAME = epower;
-				SWIFT_OBJC_BRIDGING_HEADER = "epower-Bridging-Header.h";
+				PRODUCT_BUNDLE_IDENTIFIER = com.accural.epower;
+				PRODUCT_NAME = EPower;
+				SWIFT_OBJC_BRIDGING_HEADER = "EPower-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -699,7 +699,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "epowerTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "EPowerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -708,7 +708,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "epower" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "EPower" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -717,7 +717,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "epower" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "EPower" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
